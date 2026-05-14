@@ -1,92 +1,389 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>BayDiDundé Sénégal</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
-<header>
-    <nav>
-        <h1>BayDiDundé</h1>
+    <!-- HEADER -->
+    <header>
 
-        <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#probleme">Problème</a></li>
-            <li><a href="#solution">Solution</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+        <nav>
 
-<section id="accueil" class="hero">
+            <h1>BayDiDundé</h1>
 
-    <div class="hero-text">
-        <span class="hero-badge">
-            🌍 Agriculture Numérique · Sénégal
-        </span>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#probleme">Problème</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-        <h2>
-            Agir pour l'intérêt de nos agriculteurs.
-        </h2>
+        </nav>
 
-        <p>
-            BayDiDundé est une solution digitale qui aide nos
-            agriculteurs à mieux collaborer et à trouver des
-            partenaires grâce à la mise en relation avec les
-            acteurs de l'agriculture au Sénégal.
+    </header>
+
+    <!-- HERO -->
+    <section id="accueil" class="hero">
+
+        <div class="hero-text">
+
+            <span class="hero-badge">
+                🌍 Agriculture Numérique · Sénégal
+            </span>
+
+            <h2>
+                Agir pour l'intérêt de nos agriculteurs.
+            </h2>
+
+            <p>
+                BayDiDundé est une solution digitale qui aide les agriculteurs
+                sénégalais à mieux collaborer et trouver des partenaires grâce
+                à la mise en relation avec les acteurs du secteur agricole.
+            </p>
+
+            <a href="#solution" class="btn">
+                Découvrir
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+            src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200&q=80"
+            alt="Agriculteur sénégalais">
+
+        </div>
+
+    </section>
+
+    <!-- GALERIE -->
+    <section class="gallery-section">
+
+        <h2>Notre Galerie</h2>
+
+        <p class="section-sous-titre">
+            Quelques images de nos actions sur le terrain
         </p>
 
-        <a href="#solution" class="btn">
-            Découvrir
-        </a>
-    </div>
+        <div class="gallery">
 
-    <div class="hero-image">
-        <img
-        src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200&q=80"
-        alt="Agriculteur sénégalais">
-    </div>
+            <div class="gallery-item">
 
-</section>
+                <img
+                src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=1200&q=80"
+                alt="Partenaires agriculteurs">
 
-<section class="gallery-section">
+                <div class="gallery-overlay">
+                    <span>Partenaires agriculteurs</span>
+                </div>
 
-    <h2>Notre Galerie</h2>
+            </div>
 
-    <p class="section-sous-titre">
-        Quelques images de nos actions sur le terrain
-    </p>
+            <div class="gallery-item">
 
-    <div class="gallery">
+                <img
+                src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
+                alt="Visites de terrain">
 
-        <div class="gallery-item">
-            <img
-            src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=1200&q=80"
-            alt="Partenaires agriculteurs">
+                <div class="gallery-overlay">
+                    <span>Visites de terrain</span>
+                </div>
+
+            </div>
+
+            <div class="gallery-item">
+
+                <img
+                src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=1200&q=80"
+                alt="Cultures locales">
+
+                <div class="gallery-overlay">
+                    <span>Cultures locales</span>
+                </div>
+
+            </div>
+
+            <div class="gallery-item">
+
+                <img
+                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&q=80"
+                alt="Projets agricoles">
+
+                <div class="gallery-overlay">
+                    <span>Projets agricoles</span>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="gallery-item">
-            <img
-            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80"
-            alt="Visites de terrain">
+    </section>
+
+    <!-- PROBLEME -->
+    <section id="probleme" class="section probleme-section">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Le constat
+            </span>
+
+            <h2>Le Problème</h2>
+
+            <div class="divider"></div>
+
         </div>
 
-    </div>
+        <div class="probleme-content">
 
-</section>
+            <div class="probleme-text">
 
-<footer>
-    <div class="footer-inner">
-        <h3>BayDiDundé</h3>
-        <p>© 2025 BayDiDundé Sénégal</p>
-    </div>
-</footer>
+                <p>
+                    Beaucoup d'agriculteurs peinent à écouler leurs récoltes
+                    rapidement malgré l'importation massive de produits agricoles.
+                </p>
+
+                <p>
+                    Les producteurs manquent souvent de connexions directes
+                    avec les entreprises et institutions qui ont besoin
+                    de matières premières locales.
+                </p>
+
+                <p>
+                    Cette situation entraîne des pertes importantes
+                    et fragilise l'économie agricole locale.
+                </p>
+
+            </div>
+
+            <div class="probleme-cards">
+
+                <div class="prob-card">
+
+                    <i class="fa-solid fa-link-slash"></i>
+
+                    <div>
+
+                        <strong>Manque de connexion</strong>
+
+                        <p>
+                            Difficulté d'accès aux acheteurs institutionnels.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="prob-card">
+
+                    <i class="fa-solid fa-money-bill-wave"></i>
+
+                    <div>
+
+                        <strong>Prix défavorables</strong>
+
+                        <p>
+                            Les intermédiaires captent la majorité des bénéfices.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="prob-card">
+
+                    <i class="fa-solid fa-box-open"></i>
+
+                    <div>
+
+                        <strong>Pertes post-récolte</strong>
+
+                        <p>
+                            Une partie des récoltes se perd faute de débouchés.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SOLUTION -->
+    <section id="solution" class="section solution-section">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Notre réponse
+            </span>
+
+            <h2>Notre Solution</h2>
+
+            <div class="divider"></div>
+
+        </div>
+
+        <p class="solution-intro">
+
+            BayDiDundé connecte les agriculteurs avec des entreprises,
+            industries et institutions afin de favoriser
+            l'approvisionnement local au Sénégal.
+
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <div class="card-icon">
+                    <i class="fa-solid fa-handshake"></i>
+                </div>
+
+                <h3>Consultance</h3>
+
+                <p>
+                    Analyse des besoins et accompagnement personnalisé.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-icon">
+                    <i class="fa-solid fa-people-arrows"></i>
+                </div>
+
+                <h3>Mise en relation</h3>
+
+                <p>
+                    Connexion avec les entreprises recherchant
+                    des fournisseurs locaux.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <h3>Accompagnement</h3>
+
+                <p>
+                    Suivi jusqu'à la signature des accords commerciaux.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Nous joindre
+            </span>
+
+            <h2>Contact</h2>
+
+            <div class="divider"></div>
+
+        </div>
+
+        <div class="contact-wrapper">
+
+            <div class="contact-info">
+
+                <h3>Parlons de votre projet</h3>
+
+                <p>
+                    Vous êtes agriculteur, entreprise ou institution ?
+                    Contactez-nous.
+                </p>
+
+                <ul>
+
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        contact@baydidunde.sn
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        +221 70 347 97 65
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Dakar, Sénégal
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <form>
+
+                <input type="text" placeholder="Votre nom">
+
+                <input type="email" placeholder="Votre email">
+
+                <textarea placeholder="Votre message"></textarea>
+
+                <button type="submit">
+                    Envoyer
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-inner">
+
+            <h3>BayDiDundé</h3>
+
+            <p>
+                Cultiver mieux, vendre plus, vivre dignement.
+            </p>
+
+            <p class="copyright">
+                © 2025 BayDiDundé Sénégal
+            </p>
+
+        </div>
+
+    </footer>
 
 </body>
+
 </html>
